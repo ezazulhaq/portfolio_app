@@ -15,6 +15,7 @@ class SocialCardFull extends StatelessWidget {
           color: Color(0xFFD9FFFC),
           imgSrc: 'assets/images/skype.png',
           name: 'Flutter Way',
+          onPress: () {},
         ),
         SocialCard(
           color: Color(0xFFE4FFC7),

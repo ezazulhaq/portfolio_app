@@ -1,8 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-
-import '../../../constants.dart';
+import 'package:portfolio_app/constants.dart';
 
 class GlassContent extends StatelessWidget {
   const GlassContent({
@@ -17,7 +16,10 @@ class GlassContent extends StatelessWidget {
     return ClipRRect(
       borderRadius: BorderRadius.circular(20.0),
       child: BackdropFilter(
-        filter: ImageFilter.blur(sigmaX: 10.0, sigmaY: 10.0),
+        filter: ImageFilter.blur(
+          sigmaX: 10.0,
+          sigmaY: 10.0,
+        ),
         child: Container(
           padding: EdgeInsets.symmetric(horizontal: kDefaultPadding * 2),
           constraints: BoxConstraints(
