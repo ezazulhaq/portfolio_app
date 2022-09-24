@@ -36,7 +36,7 @@ class GlassContent extends StatelessWidget {
                 'Hello, There!',
                 style: Theme.of(context)
                     .textTheme
-                    .headline5
+                    .headlineSmall
                     .copyWith(color: Colors.white),
               ),
               Text(
@@ -51,7 +51,7 @@ class GlassContent extends StatelessWidget {
                 'Mobile & Web Application Developer',
                 style: Theme.of(context)
                     .textTheme
-                    .headline5
+                    .headlineSmall
                     .copyWith(color: Colors.white),
               ),
             ],

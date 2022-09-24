@@ -62,7 +62,7 @@ class _RecentWorksCardState extends State<RecentWorksCard> {
                       recentWorks[widget.index].title,
                       style: Theme.of(context)
                           .textTheme
-                          .headline5
+                          .headlineSmall
                           .copyWith(height: 1.5),
                     ),
                     SizedBox(

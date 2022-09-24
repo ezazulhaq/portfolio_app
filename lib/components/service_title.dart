@@ -49,7 +49,7 @@ class ServiceTitle extends StatelessWidget {
               ),
               Text(
                 title,
-                style: Theme.of(context).textTheme.headline2.copyWith(
+                style: Theme.of(context).textTheme.displayMedium.copyWith(
                       fontWeight: FontWeight.bold,
                       color: Colors.black,
                     ),

@@ -13,7 +13,7 @@ class AboutTextWithSign extends StatelessWidget {
       children: [
         Text(
           'About \nmy Story',
-          style: Theme.of(context).textTheme.headline2.copyWith(
+          style: Theme.of(context).textTheme.displayMedium.copyWith(
                 fontWeight: FontWeight.bold,
                 color: Colors.black,
               ),
